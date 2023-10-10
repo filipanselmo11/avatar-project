@@ -16,6 +16,22 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/agua',
+    component: () => import('@/views/Agua.vue'),
+  },
+  {
+    path: '/terra',
+    component: () => import('@/views/Terra.vue'),
+  },
+  {
+    path: '/ar',
+    component: () => import('@/views/Ar.vue'),
+  },
+  {
+    path: '/fogo',
+    component: () => import('@/views/Fogo.vue'),
+  },
 ]
 
 const router = createRouter({

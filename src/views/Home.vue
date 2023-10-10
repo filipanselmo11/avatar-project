@@ -39,6 +39,7 @@
 <script lang="ts" setup>
 import NavbarComponent from '@/components/NavbarComponent.vue';
 import CardComponent from '@/components/CardComponent.vue';
+import { useRouter } from 'vue-router'
 const titulo1 = "Tribo da Água";
 const color1 = '#365598';
 const titulo2 = "Reino da Terra";
@@ -48,20 +49,22 @@ const color3 = '#5A84B4';
 const titulo4 = "Nação do Fogo";
 const color4 = '#A3461D';
 
+const router = useRouter();
+
 const goToAgua = () => {
-  console.log('Foi Pra água');
+  router.push('/agua');
 }
 
 const goToTerra = () => {
-  console.log('Foi Pra terra');
+  router.push('/terra');
 }
 
 const goToAr = () => {
-  console.log('Foi Pro ar');
+  router.push('/ar');
 }
 
 const goToFogo = () => {
-  console.log('Foi Pro fogo');
+  router.push('/fogo');
 }
 
 </script>
