@@ -7,24 +7,28 @@
         <CardComponent
           :titulo="titulo1"
           :color="color1"
+          :image="image"
           @go-to="goToAgua()"/>
       </v-col>
       <v-col cols="6">
         <CardComponent
           :titulo="titulo2"
           :color="color2"
+          :image="image"
           @go-to="goToTerra()"/>
       </v-col>
       <v-col cols="6">
         <CardComponent
           :titulo="titulo3"
           :color="color3"
+          :image="image"
           @go-to="goToAr()"/>
       </v-col>
       <v-col cols="6">
         <CardComponent
           :titulo="titulo4"
           :color="color4"
+          :image="image"
           @go-to="goToFogo()"/>
       </v-col>
 
@@ -39,7 +43,8 @@
 <script lang="ts" setup>
 import NavbarComponent from '@/components/NavbarComponent.vue';
 import CardComponent from '@/components/CardComponent.vue';
-import { useRouter } from 'vue-router'
+import { useRouter } from 'vue-router';
+const image = "../../src/assets/avatar-avatar-the-last-airbender-elements-wallpaper-preview.jpg";
 const titulo1 = "Tribo da Água";
 const color1 = '#365598';
 const titulo2 = "Reino da Terra";

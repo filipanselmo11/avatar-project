@@ -3,7 +3,7 @@
     <v-card-title>
       {{ titulo }}
     </v-card-title>
-    <v-img src="../assets/avatar-avatar-the-last-airbender-elements-wallpaper-preview.jpg"/>
+    <v-img :src="image"/>
     <v-card-actions>
       <v-btn
         color="orange"
@@ -24,10 +24,17 @@ export default defineComponent({
     titulo: {
       type: String,
       default: '',
+      required: false,
     },
     color: {
       type: String,
       default: '',
+      required: false,
+    },
+    image : {
+      type: String,
+      default: '',
+      required: false,
     },
   },
   methods:{
