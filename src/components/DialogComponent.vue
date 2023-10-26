@@ -5,7 +5,7 @@
         <v-card-title>
           {{ titulo }}
         </v-card-title>
-        <v-img :src="image" />
+        <v-img :src="image" :max-width="600"/>
         <v-card-actions>
           <v-btn color="orange" v-bind="props" variant="flat">
             Mais Informações
@@ -15,13 +15,17 @@
     </template>
     <template v-slot:default="{ isActive }">
       <v-card :title="titulo" :color="color">
-        <v-img :src="image" />
+        <v-img :src="image"/>
         <v-card-text>
           {{ descricao }}
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn text="Fechar" @click="isActive.value = false"></v-btn>
+          <v-btn
+            color="orange"
+            @click="isActive.value = false">
+              <span style="color: #ffffffff;">Fechar</span>
+          </v-btn>
         </v-card-actions>
       </v-card>
     </template>
