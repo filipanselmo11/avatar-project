@@ -53,6 +53,13 @@
             :color="terraColor"
             :descricao="descLin"/>
         </v-col>
+        <v-col cols="4">
+          <DialogComponent
+            :titulo="titleBolin"
+            :image="imageBolin"
+            :color="terraColor"
+            :descricao="descBolin"/>
+        </v-col>
       </v-row>
     </div>
   </div>
@@ -82,6 +89,9 @@ const descKuvira = 'Kuvira é um mestre dobrador de metal que serviu como líder
 const titleSuyin = 'Suyin Beifong';
 const imageSuyin = '../../src/assets/Suyin-1.webp';
 const descSuyin = 'Suyin Beifong é a fundadora e líder de Zaofu, a filha mais nova de Toph Beifong e a meia-irmã materna mais nova de Lin. Ela é uma poderosa dobradora de metal, além de uma dançarina habilidosa e ágil. Suyin tem um casamento feliz com um arquiteto chamado Baatar, com quem tem cinco filhos; ela considera a família de extrema importância.';
+const titleBolin = 'Bolin';
+const descBolin = 'Bolin é um dominador de terra de uma família multicultural. Ele cresceu nas ruas de Republic City sob a proteção de seu irmão mais velho, Mako, depois que seus pais foram mortos por um dominador de fogo. Eventualmente, ele e seu irmão fundaram uma equipe pró-dobradora, os Fire Ferrets, que mais tarde incluiria o Avatar Korra. Após o término do Torneio Pro-bending, Bolin se juntou ao Time Avatar em uma tentativa de impedir a organização Equalista.';
+const imageBolin = '../../src/assets/Bolin.webp';
 const voltar = () => {
   router.go(-1);
 }
