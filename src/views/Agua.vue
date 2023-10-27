@@ -11,21 +11,21 @@
     </h2>
     <div class="mt-9">
       <v-row align="center" justify="center">
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :image="imageKatara"
             :color="aguaColor"
             :titulo="titleKatara"
             :descricao="descKatara"/>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :image="imageSokka"
             :color="aguaColor"
             :titulo="titleSokka"
             :descricao="descSokka"/>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :image="imageKorra"
             :color="aguaColor"
@@ -33,7 +33,7 @@
             :descricao="descKorra"
           />
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :image="imageTonraq"
             :color="aguaColor"
@@ -41,7 +41,7 @@
             :descricao="descTonraq"
           />
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :image="imageSenna"
             :color="aguaColor"
@@ -49,7 +49,7 @@
             :descricao="descSenna"
           />
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :image="imageUnalaq"
             :color="aguaColor"
@@ -57,7 +57,7 @@
             :descricao="descUnalaq"
           />
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :image="imageVarrick"
             :color="aguaColor"

@@ -3,28 +3,28 @@
   <br>
   <div class="mt-16">
     <v-row class="ml-auto" align="center" justify="center">
-      <v-col cols="6">
+      <v-col cols="12" md="6" lg="6" xl="6">
         <CardComponent
           :titulo="titulo1"
           :color="color1"
           :image="image"
           @go-to="goToAgua()"/>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" md="6" lg="6" xl="6">
         <CardComponent
           :titulo="titulo2"
           :color="color2"
           :image="image"
           @go-to="goToTerra()"/>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" md="6" lg="6" xl="6">
         <CardComponent
           :titulo="titulo3"
           :color="color3"
           :image="image"
           @go-to="goToAr()"/>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" md="6" lg="6" xl="6">
         <CardComponent
           :titulo="titulo4"
           :color="color4"

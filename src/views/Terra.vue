@@ -11,49 +11,49 @@
     </h2>
     <div class="mt-9">
       <v-row align="center" justify="center">
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :titulo="titleToph"
             :image="imageToph"
             :color="terraColor"
             :descricao="descToph"/>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :titulo="titleKyoshi"
             :image="imageKyoshi"
             :color="terraColor"
             :descricao="descKyoshi"/>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :titulo="titleSuki"
             :image="imageSuki"
             :color="terraColor"
             :descricao="descSuki"/>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :titulo="titleKuvira"
             :image="imageKuvira"
             :color="terraColor"
             :descricao="descKuvira"/>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :titulo="titleSuyin"
             :image="imageSuyin"
             :color="terraColor"
             :descricao="descSuyin"/>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :titulo="titleLin"
             :image="imageLin"
             :color="terraColor"
             :descricao="descLin"/>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="12" md="6" lg="6" xl="6">
           <DialogComponent
             :titulo="titleBolin"
             :image="imageBolin"
